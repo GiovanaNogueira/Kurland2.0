@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9D864492C2364F40023043A /* KurlandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864482C2364F40023043A /* KurlandApp.swift */; };
+		F9D8644B2C2364F40023043A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8644A2C2364F40023043A /* ContentView.swift */; };
+		F9D8644D2C2364F50023043A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D8644C2C2364F50023043A /* Assets.xcassets */; };
+		F9D864502C2364F50023043A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D8644F2C2364F50023043A /* Preview Assets.xcassets */; };
+		F9D8645A2C2364F50023043A /* KurlandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864592C2364F50023043A /* KurlandTests.swift */; };
+		F9D864642C2364F50023043A /* KurlandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864632C2364F50023043A /* KurlandUITests.swift */; };
+		F9D864662C2364F50023043A /* KurlandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864652C2364F50023043A /* KurlandUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9D864562C2364F50023043A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9D8643D2C2364F40023043A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D864442C2364F40023043A;
+			remoteInfo = Kurland;
+		};
+		F9D864602C2364F50023043A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9D8643D2C2364F40023043A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D864442C2364F40023043A;
+			remoteInfo = Kurland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9D864452C2364F40023043A /* Kurland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kurland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D864482C2364F40023043A /* KurlandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurlandApp.swift; sourceTree = "<group>"; };
+		F9D8644A2C2364F40023043A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9D8644C2C2364F50023043A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9D8644F2C2364F50023043A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9D864552C2364F50023043A /* KurlandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KurlandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D864592C2364F50023043A /* KurlandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurlandTests.swift; sourceTree = "<group>"; };
+		F9D8645F2C2364F50023043A /* KurlandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KurlandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D864632C2364F50023043A /* KurlandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurlandUITests.swift; sourceTree = "<group>"; };
+		F9D864652C2364F50023043A /* KurlandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurlandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9D864422C2364F40023043A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D864522C2364F50023043A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D8645C2C2364F50023043A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9D8643C2C2364F40023043A = {
+			isa = PBXGroup;
+			children = (
+				F9D864472C2364F40023043A /* Kurland */,
+				F9D864582C2364F50023043A /* KurlandTests */,
+				F9D864622C2364F50023043A /* KurlandUITests */,
+				F9D864462C2364F40023043A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9D864462C2364F40023043A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9D864452C2364F40023043A /* Kurland.app */,
+				F9D864552C2364F50023043A /* KurlandTests.xctest */,
+				F9D8645F2C2364F50023043A /* KurlandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9D864472C2364F40023043A /* Kurland */ = {
+			isa = PBXGroup;
+			children = (
+				F9D864482C2364F40023043A /* KurlandApp.swift */,
+				F9D8644A2C2364F40023043A /* ContentView.swift */,
+				F9D8644C2C2364F50023043A /* Assets.xcassets */,
+				F9D8644E2C2364F50023043A /* Preview Content */,
+			);
+			path = Kurland;
+			sourceTree = "<group>";
+		};
+		F9D8644E2C2364F50023043A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8644F2C2364F50023043A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9D864582C2364F50023043A /* KurlandTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9D864592C2364F50023043A /* KurlandTests.swift */,
+			);
+			path = KurlandTests;
+			sourceTree = "<group>";
+		};
+		F9D864622C2364F50023043A /* KurlandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9D864632C2364F50023043A /* KurlandUITests.swift */,
+				F9D864652C2364F50023043A /* KurlandUITestsLaunchTests.swift */,
+			);
+			path = KurlandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9D864442C2364F40023043A /* Kurland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D864692C2364F50023043A /* Build configuration list for PBXNativeTarget "Kurland" */;
+			buildPhases = (
+				F9D864412C2364F40023043A /* Sources */,
+				F9D864422C2364F40023043A /* Frameworks */,
+				F9D864432C2364F40023043A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kurland;
+			productName = Kurland;
+			productReference = F9D864452C2364F40023043A /* Kurland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9D864542C2364F50023043A /* KurlandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D8646C2C2364F50023043A /* Build configuration list for PBXNativeTarget "KurlandTests" */;
+			buildPhases = (
+				F9D864512C2364F50023043A /* Sources */,
+				F9D864522C2364F50023043A /* Frameworks */,
+				F9D864532C2364F50023043A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9D864572C2364F50023043A /* PBXTargetDependency */,
+			);
+			name = KurlandTests;
+			productName = KurlandTests;
+			productReference = F9D864552C2364F50023043A /* KurlandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9D8645E2C2364F50023043A /* KurlandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D8646F2C2364F50023043A /* Build configuration list for PBXNativeTarget "KurlandUITests" */;
+			buildPhases = (
+				F9D8645B2C2364F50023043A /* Sources */,
+				F9D8645C2C2364F50023043A /* Frameworks */,
+				F9D8645D2C2364F50023043A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9D864612C2364F50023043A /* PBXTargetDependency */,
+			);
+			name = KurlandUITests;
+			productName = KurlandUITests;
+			productReference = F9D8645F2C2364F50023043A /* KurlandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9D8643D2C2364F40023043A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F9D864442C2364F40023043A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F9D864542C2364F50023043A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F9D864442C2364F40023043A;
+					};
+					F9D8645E2C2364F50023043A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F9D864442C2364F40023043A;
+					};
+				};
+			};
+			buildConfigurationList = F9D864402C2364F40023043A /* Build configuration list for PBXProject "Kurland" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9D8643C2C2364F40023043A;
+			productRefGroup = F9D864462C2364F40023043A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9D864442C2364F40023043A /* Kurland */,
+				F9D864542C2364F50023043A /* KurlandTests */,
+				F9D8645E2C2364F50023043A /* KurlandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9D864432C2364F40023043A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D864502C2364F50023043A /* Preview Assets.xcassets in Resources */,
+				F9D8644D2C2364F50023043A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D864532C2364F50023043A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D8645D2C2364F50023043A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9D864412C2364F40023043A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D8644B2C2364F40023043A /* ContentView.swift in Sources */,
+				F9D864492C2364F40023043A /* KurlandApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D864512C2364F50023043A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D8645A2C2364F50023043A /* KurlandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D8645B2C2364F50023043A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D864662C2364F50023043A /* KurlandUITestsLaunchTests.swift in Sources */,
+				F9D864642C2364F50023043A /* KurlandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9D864572C2364F50023043A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D864442C2364F40023043A /* Kurland */;
+			targetProxy = F9D864562C2364F50023043A /* PBXContainerItemProxy */;
+		};
+		F9D864612C2364F50023043A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D864442C2364F40023043A /* Kurland */;
+			targetProxy = F9D864602C2364F50023043A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9D864672C2364F50023043A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9D864682C2364F50023043A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9D8646A2C2364F50023043A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kurland/Preview Content\"";
+				DEVELOPMENT_TEAM = G657ETJXLM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Giovana.Kurland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9D8646B2C2364F50023043A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kurland/Preview Content\"";
+				DEVELOPMENT_TEAM = G657ETJXLM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Giovana.Kurland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9D8646D2C2364F50023043A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G657ETJXLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Giovana.KurlandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kurland.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kurland";
+			};
+			name = Debug;
+		};
+		F9D8646E2C2364F50023043A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G657ETJXLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Giovana.KurlandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kurland.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kurland";
+			};
+			name = Release;
+		};
+		F9D864702C2364F50023043A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G657ETJXLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Giovana.KurlandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kurland;
+			};
+			name = Debug;
+		};
+		F9D864712C2364F50023043A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G657ETJXLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Giovana.KurlandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kurland;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9D864402C2364F40023043A /* Build configuration list for PBXProject "Kurland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D864672C2364F50023043A /* Debug */,
+				F9D864682C2364F50023043A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D864692C2364F50023043A /* Build configuration list for PBXNativeTarget "Kurland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D8646A2C2364F50023043A /* Debug */,
+				F9D8646B2C2364F50023043A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D8646C2C2364F50023043A /* Build configuration list for PBXNativeTarget "KurlandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D8646D2C2364F50023043A /* Debug */,
+				F9D8646E2C2364F50023043A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D8646F2C2364F50023043A /* Build configuration list for PBXNativeTarget "KurlandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D864702C2364F50023043A /* Debug */,
+				F9D864712C2364F50023043A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9D8643D2C2364F40023043A /* Project object */;
+}
