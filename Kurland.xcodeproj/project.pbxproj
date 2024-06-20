@@ -14,6 +14,42 @@
 		F9D8645A2C2364F50023043A /* KurlandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864592C2364F50023043A /* KurlandTests.swift */; };
 		F9D864642C2364F50023043A /* KurlandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864632C2364F50023043A /* KurlandUITests.swift */; };
 		F9D864662C2364F50023043A /* KurlandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864652C2364F50023043A /* KurlandUITestsLaunchTests.swift */; };
+		F9D864762C236A7C0023043A /* MicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864752C236A7C0023043A /* MicController.swift */; };
+		F9D864782C236B320023043A /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864772C236B320023043A /* CameraController.swift */; };
+		F9D8647A2C237AF40023043A /* ConversaFinal1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864792C237AF40023043A /* ConversaFinal1.swift */; };
+		F9D8647C2C237B190023043A /* ConversaFinal2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8647B2C237B190023043A /* ConversaFinal2.swift */; };
+		F9D8647E2C237B4D0023043A /* JogoNatureza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8647D2C237B4D0023043A /* JogoNatureza.swift */; };
+		F9D864802C237B8B0023043A /* JogoPedra.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8647F2C237B8B0023043A /* JogoPedra.swift */; };
+		F9D864822C237BCA0023043A /* PopUp-tela4.final.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864812C237BCA0023043A /* PopUp-tela4.final.swift */; };
+		F9D864842C237BE70023043A /* PopUp_Cabelo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864832C237BE70023043A /* PopUp_Cabelo1.swift */; };
+		F9D864862C237C130023043A /* PopUp_Cabelo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864852C237C130023043A /* PopUp_Cabelo2.swift */; };
+		F9D864882C237C4F0023043A /* PopUp-Tela4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864872C237C4F0023043A /* PopUp-Tela4.swift */; };
+		F9D8648A2C237C6E0023043A /* Princesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864892C237C6E0023043A /* Princesas.swift */; };
+		F9D8648C2C237C8A0023043A /* RioCastelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8648B2C237C8A0023043A /* RioCastelo.swift */; };
+		F9D8648E2C237CA50023043A /* IntroAyana.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8648D2C237CA50023043A /* IntroAyana.swift */; };
+		F9D864902C237CBC0023043A /* AyanaTriste.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8648F2C237CBC0023043A /* AyanaTriste.swift */; };
+		F9D864922C237CCF0023043A /* Espelho.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864912C237CCF0023043A /* Espelho.swift */; };
+		F9D864942C237CE80023043A /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864932C237CE80023043A /* FriendsView.swift */; };
+		F9D864962C237CFB0023043A /* EscolhasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864952C237CFB0023043A /* EscolhasView.swift */; };
+		F9D864982C237D160023043A /* TheEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864972C237D160023043A /* TheEnd.swift */; };
+		F9D8649B2C2460EF0023043A /* musicaTriste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8649A2C2460EF0023043A /* musicaTriste.mp3 */; };
+		F9D8649D2C2461560023043A /* casteloPronto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8649C2C2461560023043A /* casteloPronto.mp3 */; };
+		F9D8649F2C2461A20023043A /* river.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8649E2C2461A20023043A /* river.mp3 */; };
+		F9D864A12C2461D00023043A /* taskCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864A02C2461D00023043A /* taskCompleted.mp3 */; };
+		F9D864A32C2462020023043A /* trilhaFinal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864A22C2462020023043A /* trilhaFinal.mp3 */; };
+		F9D864A52C24629C0023043A /* trilhaJogos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864A42C24629C0023043A /* trilhaJogos.mp3 */; };
+		F9D864A72C2462FA0023043A /* trilhaSonora.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864A62C2462FA0023043A /* trilhaSonora.mp3 */; };
+		F9D864A92C2465280023043A /* trilhaSemInicio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864A82C2465280023043A /* trilhaSemInicio.mp3 */; };
+		F9D864AB2C2465790023043A /* twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864AA2C2465790023043A /* twinkle.mp3 */; };
+		F9D864AD2C2465CC0023043A /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9D864AC2C2465CC0023043A /* PatrickHand-Regular.ttf */; };
+		F9D864B22C2470FF0023043A /* SoundPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864B12C2470FF0023043A /* SoundPlayerController.swift */; };
+		F9D864B42C247CEF0023043A /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864B32C247CEF0023043A /* DAO.swift */; };
+		F9D864B62C247D6D0023043A /* CodableExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = F9D864B52C247D6D0023043A /* CodableExtensions */; };
+		F9D864B92C247E8A0023043A /* Cenas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864B82C247E8A0023043A /* Cenas.swift */; };
+		F9D864BB2C249D700023043A /* AppDelegateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864BA2C249D700023043A /* AppDelegateController.swift */; };
+		F9D864BD2C24A31A0023043A /* Diario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864BC2C24A3190023043A /* Diario.swift */; };
+		F9D864BF2C24A4AC0023043A /* DiaryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */; };
+		F9D864C12C24CADF0023043A /* DiarySwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C02C24CADF0023043A /* DiarySwipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +80,43 @@
 		F9D8645F2C2364F50023043A /* KurlandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KurlandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D864632C2364F50023043A /* KurlandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurlandUITests.swift; sourceTree = "<group>"; };
 		F9D864652C2364F50023043A /* KurlandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurlandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9D864752C236A7C0023043A /* MicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicController.swift; sourceTree = "<group>"; };
+		F9D864772C236B320023043A /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		F9D864792C237AF40023043A /* ConversaFinal1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversaFinal1.swift; sourceTree = "<group>"; };
+		F9D8647B2C237B190023043A /* ConversaFinal2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversaFinal2.swift; sourceTree = "<group>"; };
+		F9D8647D2C237B4D0023043A /* JogoNatureza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoNatureza.swift; sourceTree = "<group>"; };
+		F9D8647F2C237B8B0023043A /* JogoPedra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoPedra.swift; sourceTree = "<group>"; };
+		F9D864812C237BCA0023043A /* PopUp-tela4.final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopUp-tela4.final.swift"; sourceTree = "<group>"; };
+		F9D864832C237BE70023043A /* PopUp_Cabelo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp_Cabelo1.swift; sourceTree = "<group>"; };
+		F9D864852C237C130023043A /* PopUp_Cabelo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp_Cabelo2.swift; sourceTree = "<group>"; };
+		F9D864872C237C4F0023043A /* PopUp-Tela4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopUp-Tela4.swift"; sourceTree = "<group>"; };
+		F9D864892C237C6E0023043A /* Princesas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Princesas.swift; sourceTree = "<group>"; };
+		F9D8648B2C237C8A0023043A /* RioCastelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RioCastelo.swift; sourceTree = "<group>"; };
+		F9D8648D2C237CA50023043A /* IntroAyana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroAyana.swift; sourceTree = "<group>"; };
+		F9D8648F2C237CBC0023043A /* AyanaTriste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyanaTriste.swift; sourceTree = "<group>"; };
+		F9D864912C237CCF0023043A /* Espelho.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espelho.swift; sourceTree = "<group>"; };
+		F9D864932C237CE80023043A /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		F9D864952C237CFB0023043A /* EscolhasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscolhasView.swift; sourceTree = "<group>"; };
+		F9D864972C237D160023043A /* TheEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEnd.swift; sourceTree = "<group>"; };
+		F9D8649A2C2460EF0023043A /* musicaTriste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = musicaTriste.mp3; path = "../../../../../../Music/Music/Media.localized/Music/Jon Björk/Unknown Album/musicaTriste.mp3"; sourceTree = "<group>"; };
+		F9D8649C2C2461560023043A /* casteloPronto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = casteloPronto.mp3; path = "../../../../../../Music/Music/Media.localized/Music/SFX Producer/Unknown Album/casteloPronto.mp3"; sourceTree = "<group>"; };
+		F9D8649E2C2461A20023043A /* river.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = river.mp3; path = "../../../../../../Music/Music/Media.localized/Music/SFX Producer/Unknown Album/river.mp3"; sourceTree = "<group>"; };
+		F9D864A02C2461D00023043A /* taskCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = taskCompleted.mp3; path = "../../../../../../Music/Music/Media.localized/Music/SFX Producer/Unknown Album/taskCompleted.mp3"; sourceTree = "<group>"; };
+		F9D864A22C2462020023043A /* trilhaFinal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = trilhaFinal.mp3; path = "../../../../../../Music/Music/Media.localized/Music/Francis Wells/Unknown Album/trilhaFinal.mp3"; sourceTree = "<group>"; };
+		F9D864A42C24629C0023043A /* trilhaJogos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = trilhaJogos.mp3; path = "../../../../../../Music/Music/Media.localized/Music/Adriel Fair/Unknown Album/trilhaJogos.mp3"; sourceTree = "<group>"; };
+		F9D864A62C2462FA0023043A /* trilhaSonora.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = trilhaSonora.mp3; path = "../../../../../../Music/Music/Media.localized/Music/Jon Björk/Unknown Album/trilhaSonora.mp3"; sourceTree = "<group>"; };
+		F9D864A82C2465280023043A /* trilhaSemInicio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = trilhaSemInicio.mp3; path = ../../../../../../Desktop/trilhaSemInicio.mp3; sourceTree = "<group>"; };
+		F9D864AA2C2465790023043A /* twinkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = twinkle.mp3; path = "../../../../../../Music/Music/Media.localized/Music/SFX Producer/Unknown Album/twinkle.mp3"; sourceTree = "<group>"; };
+		F9D864AC2C2465CC0023043A /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PatrickHand-Regular.ttf"; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/Downloads/Kurland.swiftpm 2/Resources/PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
+		F9D864AE2C2465D10023043A /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
+		F9D864AF2C2467500023043A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F9D864B12C2470FF0023043A /* SoundPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerController.swift; sourceTree = "<group>"; };
+		F9D864B32C247CEF0023043A /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		F9D864B82C247E8A0023043A /* Cenas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cenas.swift; sourceTree = "<group>"; };
+		F9D864BA2C249D700023043A /* AppDelegateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateController.swift; sourceTree = "<group>"; };
+		F9D864BC2C24A3190023043A /* Diario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diario.swift; sourceTree = "<group>"; };
+		F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntry.swift; sourceTree = "<group>"; };
+		F9D864C02C24CADF0023043A /* DiarySwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarySwipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D864B62C247D6D0023043A /* CodableExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +168,14 @@
 		F9D864472C2364F40023043A /* Kurland */ = {
 			isa = PBXGroup;
 			children = (
+				F9D864AF2C2467500023043A /* Info.plist */,
+				F9D864B72C247E620023043A /* Models */,
+				F9D864722C2369CA0023043A /* Controller */,
+				F9D864742C2369E40023043A /* Views */,
 				F9D864482C2364F40023043A /* KurlandApp.swift */,
-				F9D8644A2C2364F40023043A /* ContentView.swift */,
 				F9D8644C2C2364F50023043A /* Assets.xcassets */,
+				F9D864AE2C2465D10023043A /* PatrickHand-Regular.ttf */,
+				F9D864992C2460490023043A /* SoundEffects */,
 				F9D8644E2C2364F50023043A /* Preview Content */,
 			);
 			path = Kurland;
@@ -127,6 +206,70 @@
 			path = KurlandUITests;
 			sourceTree = "<group>";
 		};
+		F9D864722C2369CA0023043A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9D864752C236A7C0023043A /* MicController.swift */,
+				F9D864772C236B320023043A /* CameraController.swift */,
+				F9D864B12C2470FF0023043A /* SoundPlayerController.swift */,
+				F9D864B32C247CEF0023043A /* DAO.swift */,
+				F9D864BA2C249D700023043A /* AppDelegateController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9D864742C2369E40023043A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8644A2C2364F40023043A /* ContentView.swift */,
+				F9D8648D2C237CA50023043A /* IntroAyana.swift */,
+				F9D8648F2C237CBC0023043A /* AyanaTriste.swift */,
+				F9D864872C237C4F0023043A /* PopUp-Tela4.swift */,
+				F9D864912C237CCF0023043A /* Espelho.swift */,
+				F9D864812C237BCA0023043A /* PopUp-tela4.final.swift */,
+				F9D864932C237CE80023043A /* FriendsView.swift */,
+				F9D864952C237CFB0023043A /* EscolhasView.swift */,
+				F9D864832C237BE70023043A /* PopUp_Cabelo1.swift */,
+				F9D8647D2C237B4D0023043A /* JogoNatureza.swift */,
+				F9D864852C237C130023043A /* PopUp_Cabelo2.swift */,
+				F9D8647F2C237B8B0023043A /* JogoPedra.swift */,
+				F9D8648B2C237C8A0023043A /* RioCastelo.swift */,
+				F9D864792C237AF40023043A /* ConversaFinal1.swift */,
+				F9D8647B2C237B190023043A /* ConversaFinal2.swift */,
+				F9D864892C237C6E0023043A /* Princesas.swift */,
+				F9D864972C237D160023043A /* TheEnd.swift */,
+				F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */,
+				F9D864C02C24CADF0023043A /* DiarySwipe.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9D864992C2460490023043A /* SoundEffects */ = {
+			isa = PBXGroup;
+			children = (
+				F9D864AC2C2465CC0023043A /* PatrickHand-Regular.ttf */,
+				F9D864A02C2461D00023043A /* taskCompleted.mp3 */,
+				F9D864A22C2462020023043A /* trilhaFinal.mp3 */,
+				F9D864A62C2462FA0023043A /* trilhaSonora.mp3 */,
+				F9D864A82C2465280023043A /* trilhaSemInicio.mp3 */,
+				F9D8649E2C2461A20023043A /* river.mp3 */,
+				F9D864AA2C2465790023043A /* twinkle.mp3 */,
+				F9D8649C2C2461560023043A /* casteloPronto.mp3 */,
+				F9D864A42C24629C0023043A /* trilhaJogos.mp3 */,
+				F9D8649A2C2460EF0023043A /* musicaTriste.mp3 */,
+			);
+			path = SoundEffects;
+			sourceTree = "<group>";
+		};
+		F9D864B72C247E620023043A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F9D864B82C247E8A0023043A /* Cenas.swift */,
+				F9D864BC2C24A3190023043A /* Diario.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +286,9 @@
 			dependencies = (
 			);
 			name = Kurland;
+			packageProductDependencies = (
+				F9D864B52C247D6D0023043A /* CodableExtensions */,
+			);
 			productName = Kurland;
 			productReference = F9D864452C2364F40023043A /* Kurland.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +361,9 @@
 				Base,
 			);
 			mainGroup = F9D8643C2C2364F40023043A;
+			packageReferences = (
+				F9D864B02C246C210023043A /* XCRemoteSwiftPackageReference "CodableExtensions" */,
+			);
 			productRefGroup = F9D864462C2364F40023043A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +380,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D864AB2C2465790023043A /* twinkle.mp3 in Resources */,
+				F9D864A32C2462020023043A /* trilhaFinal.mp3 in Resources */,
 				F9D864502C2364F50023043A /* Preview Assets.xcassets in Resources */,
+				F9D8649B2C2460EF0023043A /* musicaTriste.mp3 in Resources */,
+				F9D864A92C2465280023043A /* trilhaSemInicio.mp3 in Resources */,
+				F9D864A52C24629C0023043A /* trilhaJogos.mp3 in Resources */,
 				F9D8644D2C2364F50023043A /* Assets.xcassets in Resources */,
+				F9D864A12C2461D00023043A /* taskCompleted.mp3 in Resources */,
+				F9D8649F2C2461A20023043A /* river.mp3 in Resources */,
+				F9D8649D2C2461560023043A /* casteloPronto.mp3 in Resources */,
+				F9D864A72C2462FA0023043A /* trilhaSonora.mp3 in Resources */,
+				F9D864AD2C2465CC0023043A /* PatrickHand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +416,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D864B92C247E8A0023043A /* Cenas.swift in Sources */,
 				F9D8644B2C2364F40023043A /* ContentView.swift in Sources */,
+				F9D8648A2C237C6E0023043A /* Princesas.swift in Sources */,
+				F9D8648C2C237C8A0023043A /* RioCastelo.swift in Sources */,
+				F9D8647A2C237AF40023043A /* ConversaFinal1.swift in Sources */,
+				F9D864862C237C130023043A /* PopUp_Cabelo2.swift in Sources */,
+				F9D8647E2C237B4D0023043A /* JogoNatureza.swift in Sources */,
+				F9D864822C237BCA0023043A /* PopUp-tela4.final.swift in Sources */,
+				F9D864982C237D160023043A /* TheEnd.swift in Sources */,
+				F9D864B42C247CEF0023043A /* DAO.swift in Sources */,
+				F9D864962C237CFB0023043A /* EscolhasView.swift in Sources */,
+				F9D864BD2C24A31A0023043A /* Diario.swift in Sources */,
+				F9D864942C237CE80023043A /* FriendsView.swift in Sources */,
+				F9D864842C237BE70023043A /* PopUp_Cabelo1.swift in Sources */,
+				F9D8647C2C237B190023043A /* ConversaFinal2.swift in Sources */,
+				F9D864B22C2470FF0023043A /* SoundPlayerController.swift in Sources */,
+				F9D864882C237C4F0023043A /* PopUp-Tela4.swift in Sources */,
+				F9D8648E2C237CA50023043A /* IntroAyana.swift in Sources */,
+				F9D864922C237CCF0023043A /* Espelho.swift in Sources */,
+				F9D864C12C24CADF0023043A /* DiarySwipe.swift in Sources */,
 				F9D864492C2364F40023043A /* KurlandApp.swift in Sources */,
+				F9D864802C237B8B0023043A /* JogoPedra.swift in Sources */,
+				F9D864782C236B320023043A /* CameraController.swift in Sources */,
+				F9D864762C236A7C0023043A /* MicController.swift in Sources */,
+				F9D864BB2C249D700023043A /* AppDelegateController.swift in Sources */,
+				F9D864BF2C24A4AC0023043A /* DiaryEntry.swift in Sources */,
+				F9D864902C237CBC0023043A /* AyanaTriste.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +609,14 @@
 				DEVELOPMENT_TEAM = G657ETJXLM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kurland/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Enable the camera to complete the next quest.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Enable the microphone to complete the next quest.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Enable speech recognition to complete the next quest.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +624,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Giovana.Kurland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -454,11 +645,14 @@
 				DEVELOPMENT_TEAM = G657ETJXLM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kurland/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Enable the camera to complete the next quest.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Enable the microphone to complete the next quest.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Enable speech recognition to complete the next quest.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +660,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Giovana.Kurland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -588,6 +786,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F9D864B02C246C210023043A /* XCRemoteSwiftPackageReference "CodableExtensions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rvenieris/CodableExtensions.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F9D864B52C247D6D0023043A /* CodableExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9D864B02C246C210023043A /* XCRemoteSwiftPackageReference "CodableExtensions" */;
+			productName = CodableExtensions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F9D8643D2C2364F40023043A /* Project object */;
 }
