@@ -15,7 +15,7 @@ let dao = DAO.instance
     
     var cenaAtual: Cena = .abertura
     var diario: [Entry] = []
-    var showCameraControll: Bool = false
+//    var showCameraControll: Bool = false
     var idEntry: UUID? = nil
     var isEditing: Bool = false
     

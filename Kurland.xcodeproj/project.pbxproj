@@ -51,6 +51,9 @@
 		F9D864BF2C24A4AC0023043A /* DiaryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */; };
 		F9D864C12C24CADF0023043A /* DiarySwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C02C24CADF0023043A /* DiarySwipe.swift */; };
 		F9D864C32C2C592B0023043A /* DiaryDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C22C2C592B0023043A /* DiaryDisplay.swift */; };
+		F9D864C52C2CB5370023043A /* StellaDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C42C2CB5370023043A /* StellaDiary.swift */; };
+		F9D864C72C2CB85C0023043A /* GenerateAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C62C2CB85C0023043A /* GenerateAI.swift */; };
+		F9D864C92C2CBA910023043A /* AiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C82C2CBA910023043A /* AiInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +122,9 @@
 		F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntry.swift; sourceTree = "<group>"; };
 		F9D864C02C24CADF0023043A /* DiarySwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarySwipe.swift; sourceTree = "<group>"; };
 		F9D864C22C2C592B0023043A /* DiaryDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDisplay.swift; sourceTree = "<group>"; };
+		F9D864C42C2CB5370023043A /* StellaDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaDiary.swift; sourceTree = "<group>"; };
+		F9D864C62C2CB85C0023043A /* GenerateAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateAI.swift; sourceTree = "<group>"; };
+		F9D864C82C2CBA910023043A /* AiInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +249,9 @@
 				F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */,
 				F9D864C02C24CADF0023043A /* DiarySwipe.swift */,
 				F9D864C22C2C592B0023043A /* DiaryDisplay.swift */,
+				F9D864C42C2CB5370023043A /* StellaDiary.swift */,
+				F9D864C62C2CB85C0023043A /* GenerateAI.swift */,
+				F9D864C82C2CBA910023043A /* AiInfo.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -431,15 +440,18 @@
 				F9D864B42C247CEF0023043A /* DAO.swift in Sources */,
 				F9D864962C237CFB0023043A /* EscolhasView.swift in Sources */,
 				F9D864BD2C24A31A0023043A /* Diario.swift in Sources */,
+				F9D864C52C2CB5370023043A /* StellaDiary.swift in Sources */,
 				F9D864942C237CE80023043A /* FriendsView.swift in Sources */,
 				F9D864842C237BE70023043A /* PopUp_Cabelo1.swift in Sources */,
 				F9D8647C2C237B190023043A /* ConversaFinal2.swift in Sources */,
+				F9D864C72C2CB85C0023043A /* GenerateAI.swift in Sources */,
 				F9D864B22C2470FF0023043A /* SoundPlayerController.swift in Sources */,
 				F9D864882C237C4F0023043A /* PopUp-Tela4.swift in Sources */,
 				F9D8648E2C237CA50023043A /* IntroAyana.swift in Sources */,
 				F9D864922C237CCF0023043A /* Espelho.swift in Sources */,
 				F9D864C12C24CADF0023043A /* DiarySwipe.swift in Sources */,
 				F9D864492C2364F40023043A /* KurlandApp.swift in Sources */,
+				F9D864C92C2CBA910023043A /* AiInfo.swift in Sources */,
 				F9D864802C237B8B0023043A /* JogoPedra.swift in Sources */,
 				F9D864782C236B320023043A /* CameraController.swift in Sources */,
 				F9D864762C236A7C0023043A /* MicController.swift in Sources */,
@@ -610,7 +622,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Kurland/Preview Content\"";
-				DEVELOPMENT_TEAM = G657ETJXLM;
+				DEVELOPMENT_TEAM = 67AYPRFZH8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Kurland/Info.plist;
@@ -626,7 +638,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Giovana.Kurland;
+				PRODUCT_BUNDLE_IDENTIFIER = kurland.giovana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -646,7 +658,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Kurland/Preview Content\"";
-				DEVELOPMENT_TEAM = G657ETJXLM;
+				DEVELOPMENT_TEAM = 67AYPRFZH8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Kurland/Info.plist;
@@ -662,7 +674,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Giovana.Kurland;
+				PRODUCT_BUNDLE_IDENTIFIER = kurland.giovana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

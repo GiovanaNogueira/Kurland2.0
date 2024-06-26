@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct DiaryEntry: View {
     
@@ -14,6 +15,7 @@ struct DiaryEntry: View {
     @State var titulo: String = ""
     @State var showCamera: Bool = false
     @State var image: UIImage?
+    let textLimit = 15
     
     let entry = dao.diario.first { $0.id == dao.idEntry }
     
@@ -28,6 +30,7 @@ struct DiaryEntry: View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(.brightPurple)
                     .padding(.top, 30)
+                    .onReceive(Just(titulo)){ _ in limitText(textLimit)}
                 
                 HStack{
                     Button{
@@ -98,7 +101,6 @@ struct DiaryEntry: View {
             .padding(.top, 40)
         }
         .onAppear{
-            dao.showCameraControll = true
             if dao.isEditing, let currentEntry = dao.diario.first(where: { $0.id == dao.idEntry }) {
                 entrada = currentEntry.corpo
                 titulo = currentEntry.titulo
@@ -128,6 +130,12 @@ struct DiaryEntry: View {
         }
         dao.cenaAtual = .diarySwipe
     }
+    
+    func limitText(_ upper: Int) {
+           if titulo.count > upper {
+               titulo = String(titulo.prefix(upper))
+           }
+       }
 
 }
 

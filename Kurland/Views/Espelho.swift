@@ -81,7 +81,7 @@ struct Espelho: View {
         })
         .onAppear {
             speechToText.startTranscribing()
-            dao.showCameraControll = false
+//            dao.showCameraControll = false
         }
     }
 }

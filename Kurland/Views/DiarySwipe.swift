@@ -40,7 +40,7 @@ struct DiarySwipe: View{
                                 Rectangle()
                                     .fill(Color.clear)
                                     .frame(width: (geometry.size.width / 2) - (942.59 / 2))
-                                ForEach(dao.diario){ entry in
+                                ForEach(dao.diario.reversed()){ entry in
                                     Button{
                                         dao.idEntry = entry.id
                                         dao.cenaAtual = .diaryDisplay
@@ -57,8 +57,9 @@ struct DiarySwipe: View{
                                                         .frame(width: 402, height: 464)
                                                 }
                                                 VStack(alignment: .leading){
-                                                    Text(entry.titulo)
+                                                    Text(entry.titulo.uppercased())
                                                         .font(.custom("PatrickHand-Regular", size: 60))
+                                                        .padding(.bottom, 10)
                                                     Text(entry.corpo)
                                                         .padding(.bottom, 30)
                                                     
@@ -67,6 +68,7 @@ struct DiarySwipe: View{
                                                     
                                                 }
                                                 .padding(50)
+                                                .multilineTextAlignment(.leading)
                                             }
                                             .padding(.leading, 20)
                                         }
@@ -87,16 +89,29 @@ struct DiarySwipe: View{
                             dao.cenaAtual = .abertura
                         }label: {
                             Image("BtnPrevAmarelo")
-                                .padding(.bottom, 20)
-                                .padding(.leading, 50)
+    
                         }
+                        .padding(.bottom, 20)
+                        .padding(.trailing, 50)
                         Spacer()
-                        Button{
-                            dao.cenaAtual = .diaryEntry
-                        }label: {
-                            Image("BtnAddRoxo")
-                                .padding(.bottom, 20)
-                                .padding(.trailing, 50)
+                        
+                        HStack(spacing: 5){
+                            Button{
+                                dao.cenaAtual = .genarateAI
+                            }label: {
+                                Image("BtnAi")
+                                   
+                            }
+                            .padding(.bottom, 20)
+                            .padding(.trailing, 50)
+                            
+                            Button{
+                                dao.cenaAtual = .diaryEntry
+                            }label: {
+                                Image("BtnAddRoxo")
+                            }
+                            .padding(.bottom, 20)
+                            .padding(.trailing, 50)
                         }
                     }
                 }

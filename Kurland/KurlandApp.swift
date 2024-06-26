@@ -153,6 +153,15 @@ struct KurlandApp: App {
                 case .diaryDisplay:
                     DiaryDisplay()
                         .transition(.opacity)
+                case .stellaDiary:
+                    StellaDiary()
+                        .transition(.opacity)
+                case .genarateAI:
+                    GenerateAI()
+                        .transition(.opacity)
+                case .aiInfo:
+                    AiInfo()
+                        .transition(.opacity)
                 }
             }
             .onChange(of: cenaAtual) { newCena in

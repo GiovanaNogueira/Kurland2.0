@@ -30,21 +30,23 @@ struct DiaryDisplay: View {
                                 .shadow(radius: 2)
                                 .frame(width: 402, height: 464)
                         }
-                        
-                        VStack(alignment: .leading){
-                            Text(entry.titulo)
-                                .font(.custom("PatrickHand-Regular", size: 60))
-                            Text(entry.corpo)
-                                .font(.custom("PatrickHand-Regular", size: 40))
-                                .padding(.bottom, 30)
-                            
-                            Text(formatDates(from: entry.data).abbreviatedFormat)
-                                .font(.custom("PatrickHand-Regular", size: 28))
-                                .opacity(0.8)
-                            
+                        ScrollView(showsIndicators: false){
+                            VStack(alignment: .leading){
+                                Text(entry.titulo.uppercased())
+                                    .font(.custom("PatrickHand-Regular", size: 60))
+                                Text(entry.corpo)
+                                    .font(.custom("PatrickHand-Regular", size: 40))
+                                    .padding(.bottom, 30)
+                                
+                                Text(formatDates(from: entry.data).abbreviatedFormat)
+                                    .font(.custom("PatrickHand-Regular", size: 28))
+                                    .opacity(0.8)
+                                
+                            }
+                            .padding(50)
+                            .foregroundColor(.white)
+                            .multilineTextAlignment(.leading)
                         }
-                        .padding(50)
-                        .foregroundColor(.white)
                     }
                     
                     Spacer()
@@ -54,9 +56,9 @@ struct DiaryDisplay: View {
                             dao.cenaAtual = .diarySwipe
                         }label: {
                             Image("BtnPrevAmarelo")
-                                .padding(.bottom, 20)
-                                .padding(.leading, 50)
                         }
+                        .padding(.bottom, 20)
+                        .padding(.leading, 50)
                         Spacer()
                         
                         HStack(alignment: .center, spacing: 30){
@@ -88,9 +90,10 @@ struct DiaryDisplay: View {
                                 dao.cenaAtual = .diaryEntry
                             }label: {
                                 Image("BtnEdit")
-                                    .padding(.bottom, 20)
-                                    .padding(.trailing, 50)
+                                    
                             }
+                            .padding(.bottom, 20)
+                            .padding(.trailing, 50)
                         }
                     }
                 }

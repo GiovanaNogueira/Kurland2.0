@@ -25,4 +25,7 @@ enum Cena: Int, Codable {
     case diaryEntry
     case diarySwipe
     case diaryDisplay
+    case stellaDiary
+    case genarateAI
+    case aiInfo
 }

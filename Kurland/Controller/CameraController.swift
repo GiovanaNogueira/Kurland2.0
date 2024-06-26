@@ -13,6 +13,10 @@ struct CameraView: UIViewControllerRepresentable {
     @Environment(\.presentationMode) var presentationMode
     @Binding var selectedImage: UIImage?
     
+    var showControll: Bool {
+        dao.cenaAtual != .espelho
+    }
+        
     class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
         var parent: CameraView
 
@@ -39,7 +43,7 @@ struct CameraView: UIViewControllerRepresentable {
         picker.delegate = context.coordinator
         picker.sourceType = .camera
         picker.cameraDevice = .front // Define a câmera frontal
-        picker.showsCameraControls = dao.showCameraControll
+        picker.showsCameraControls = showControll
         return picker
     }
 
