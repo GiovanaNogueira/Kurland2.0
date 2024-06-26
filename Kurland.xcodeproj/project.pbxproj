@@ -50,6 +50,7 @@
 		F9D864BD2C24A31A0023043A /* Diario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864BC2C24A3190023043A /* Diario.swift */; };
 		F9D864BF2C24A4AC0023043A /* DiaryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */; };
 		F9D864C12C24CADF0023043A /* DiarySwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C02C24CADF0023043A /* DiarySwipe.swift */; };
+		F9D864C32C2C592B0023043A /* DiaryDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C22C2C592B0023043A /* DiaryDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,7 @@
 		F9D864BC2C24A3190023043A /* Diario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diario.swift; sourceTree = "<group>"; };
 		F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntry.swift; sourceTree = "<group>"; };
 		F9D864C02C24CADF0023043A /* DiarySwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiarySwipe.swift; sourceTree = "<group>"; };
+		F9D864C22C2C592B0023043A /* DiaryDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				F9D864972C237D160023043A /* TheEnd.swift */,
 				F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */,
 				F9D864C02C24CADF0023043A /* DiarySwipe.swift */,
+				F9D864C22C2C592B0023043A /* DiaryDisplay.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				F9D864802C237B8B0023043A /* JogoPedra.swift in Sources */,
 				F9D864782C236B320023043A /* CameraController.swift in Sources */,
 				F9D864762C236A7C0023043A /* MicController.swift in Sources */,
+				F9D864C32C2C592B0023043A /* DiaryDisplay.swift in Sources */,
 				F9D864BB2C249D700023043A /* AppDelegateController.swift in Sources */,
 				F9D864BF2C24A4AC0023043A /* DiaryEntry.swift in Sources */,
 				F9D864902C237CBC0023043A /* AyanaTriste.swift in Sources */,

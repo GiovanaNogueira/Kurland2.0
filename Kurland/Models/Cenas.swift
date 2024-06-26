@@ -24,4 +24,5 @@ enum Cena: Int, Codable {
     case theEnd
     case diaryEntry
     case diarySwipe
+    case diaryDisplay
 }

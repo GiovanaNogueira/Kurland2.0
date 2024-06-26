@@ -150,6 +150,9 @@ struct KurlandApp: App {
                 case .diarySwipe:
                     DiarySwipe()
                         .transition(.opacity)
+                case .diaryDisplay:
+                    DiaryDisplay()
+                        .transition(.opacity)
                 }
             }
             .onChange(of: cenaAtual) { newCena in

@@ -15,10 +15,10 @@ struct Espelho: View {
     @State var isShowingPopup4final = false
     var frase: String = "I am strong intelligent and pretty"
     @StateObject private var speechToText = SpeechToText(language: "en-US") //pt-BR
-
+    @State var image: UIImage?
     var body: some View {
         ZStack{
-            CameraView().ignoresSafeArea()
+            CameraView(selectedImage: $image).ignoresSafeArea()
             VStack {
                 Text("HOLD THE CAMERA TO YOUR FACE AND REPEAT THE AFFIRMATION")
                     .font(.custom("PatrickHand-Regular", size: 28))
@@ -81,6 +81,7 @@ struct Espelho: View {
         })
         .onAppear {
             speechToText.startTranscribing()
+            dao.showCameraControll = false
         }
     }
 }

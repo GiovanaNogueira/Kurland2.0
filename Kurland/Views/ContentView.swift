@@ -16,21 +16,37 @@ struct ContentView: View {
                 .resizable()
                 .ignoresSafeArea()
             VStack{
-                Spacer()
-                Button(action: {
-                    dao.cenaAtual = .introducao
-                }, label: {
-                    Image("BtnPlay")
-                        .padding(.top, 50)
-                })
-                Spacer()
-                Button(action: {
-                    dao.cenaAtual = .diaryEntry
-                }, label: {
-                    Text("My Diary")
-//                        .padding(.top, 50)
-                })
+                HStack(spacing: 40){
+                    Button(action: {
+                        dao.cenaAtual = .introducao
+                    }, label: {
+                        VStack(spacing: 15){
+                            Image("BtnPlay")
+                                .resizable()
+                                .frame(width: 129.92, height: 129.92)
+                            Text("Play")
+                                .font(.custom("PatrickHand-Regular", size: 32))
+                                .foregroundStyle(Color.white)
+                                .shadow(radius: 2)
+                        }
+                    })
+                    Button(action: {
+                        dao.cenaAtual = .diarySwipe
+                    }, label: {
+                        VStack(spacing: 15){
+                            Image("BtnDiary")
+                                .resizable()
+                                .frame(width: 129.92, height: 129.92)
+                            Text("Diary")
+                                .font(.custom("PatrickHand-Regular", size: 32))
+                                .foregroundStyle(Color.white)
+                                .shadow(radius: 2)
+                        }
+                        //
+                    })
+                }
             }
+            .padding(.top, 200)
         }
     }
 }

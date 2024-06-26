@@ -15,9 +15,16 @@ let dao = DAO.instance
     
     var cenaAtual: Cena = .abertura
     var diario: [Entry] = []
+    var showCameraControll: Bool = false
+    var idEntry: UUID? = nil
+    var isEditing: Bool = false
+    
     
     private init() {}
     
+    func removeEntry(by id: UUID) {
+           diario.removeAll { $0.id == id }
+       }
 }
 
 
