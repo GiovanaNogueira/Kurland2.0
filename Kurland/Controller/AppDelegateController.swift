@@ -11,7 +11,7 @@ import UIKit
 class AppDelegate: NSObject, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Salvar a cena atual quando o aplicativo for encerrado
-        dao.cenaAtual = .abertura
+        dao.cenaAtual = .launchScreen
         do {
             try DAO.instance.save()
         } catch {

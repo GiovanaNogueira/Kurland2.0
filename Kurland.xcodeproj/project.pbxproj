@@ -60,6 +60,8 @@
 		F9D864D42C2D97F20023043A /* AiStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864D32C2D97F20023043A /* AiStory.swift */; };
 		F9D864D62C2D990A0023043A /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864D52C2D990A0023043A /* Story.swift */; };
 		F9D864D82C2D9EBB0023043A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864D72C2D9EBB0023043A /* AppState.swift */; };
+		F9D864DA2C2E05B10023043A /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864D92C2E05B10023043A /* LaunchScreen.swift */; };
+		F9D864DC2C2E115C0023043A /* SavedStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864DB2C2E115C0023043A /* SavedStories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +138,8 @@
 		F9D864D32C2D97F20023043A /* AiStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiStory.swift; sourceTree = "<group>"; };
 		F9D864D52C2D990A0023043A /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		F9D864D72C2D9EBB0023043A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F9D864D92C2E05B10023043A /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		F9D864DB2C2E115C0023043A /* SavedStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedStories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +247,7 @@
 		F9D864742C2369E40023043A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F9D864D92C2E05B10023043A /* LaunchScreen.swift */,
 				F9D8644A2C2364F40023043A /* ContentView.swift */,
 				F9D8648D2C237CA50023043A /* IntroAyana.swift */,
 				F9D8648F2C237CBC0023043A /* AyanaTriste.swift */,
@@ -267,6 +272,7 @@
 				F9D864C62C2CB85C0023043A /* GenerateAI.swift */,
 				F9D864C82C2CBA910023043A /* AiInfo.swift */,
 				F9D864D32C2D97F20023043A /* AiStory.swift */,
+				F9D864DB2C2E115C0023043A /* SavedStories.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -474,6 +480,7 @@
 				F9D864C12C24CADF0023043A /* DiarySwipe.swift in Sources */,
 				F9D864492C2364F40023043A /* KurlandApp.swift in Sources */,
 				F9D864C92C2CBA910023043A /* AiInfo.swift in Sources */,
+				F9D864DC2C2E115C0023043A /* SavedStories.swift in Sources */,
 				F9D864802C237B8B0023043A /* JogoPedra.swift in Sources */,
 				F9D864782C236B320023043A /* CameraController.swift in Sources */,
 				F9D864D02C2D95CB0023043A /* AiController+aiXplain.swift in Sources */,
@@ -482,6 +489,7 @@
 				F9D864C32C2C592B0023043A /* DiaryDisplay.swift in Sources */,
 				F9D864BB2C249D700023043A /* AppDelegateController.swift in Sources */,
 				F9D864BF2C24A4AC0023043A /* DiaryEntry.swift in Sources */,
+				F9D864DA2C2E05B10023043A /* LaunchScreen.swift in Sources */,
 				F9D864902C237CBC0023043A /* AyanaTriste.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -657,7 +665,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -694,7 +702,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

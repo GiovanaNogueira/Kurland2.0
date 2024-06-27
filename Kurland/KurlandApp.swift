@@ -31,9 +31,6 @@ struct KurlandApp: App {
 
     var body: some Scene {
         WindowGroup {
-//            ZStack{
-//                StellaDiary()
-//            }
             ZStack {
                 switch dao.cenaAtual {
                 case .abertura:
@@ -159,9 +156,14 @@ struct KurlandApp: App {
                     AiInfo()
                         .transition(.opacity)
                 case .processing:
-                    ProgressView()
+                    ProgressView("Generating your magical story...")
+                        .background(Image("FundoRoxo"))
                 case .showingStory:
                     AiStory()
+                case .launchScreen:
+                    LaunchScreenView()
+                case .savedStories:
+                    SavedStories()
                 }
             }
             .onChange(of: cenaAtual) { newCena in

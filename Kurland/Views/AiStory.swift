@@ -11,34 +11,49 @@ struct AiStory: View {
     var body: some View {
         GeometryReader { geometry in
             ZStack{
-                Image("FundoAmarelo")
+                Image("FundoRoxo")
                     .resizable()
                     .ignoresSafeArea()
                 VStack{
-                    
-                    Text(dao.story.title)
+                    Spacer()
+                    Text(dao.story.title.uppercased())
                         .font(.custom("PatrickHand-Regular", size: 40))
                         .foregroundStyle(.white)
                         .padding(.bottom, 30)
-                    ScrollView(.horizontal, showsIndicators: false){
-                        HStack{
-                            Rectangle()
-                                .fill(Color.clear)
-                                .frame(width: (geometry.size.width / 2) - (942.59 / 2))
+                        .padding(.top, 20)
+                    
+                    ScrollView{
+                        VStack{
                             ForEach(dao.story.story.indices, id: \.self ){ index in
                                 VStack{
                                     Text(dao.story.story[index])
-                                        .padding(50)
+                                        .multilineTextAlignment(.center)
+                                        .font(.custom("PatrickHand-Regular", size: 36))
+                                        .foregroundStyle(.white)
+                                        .lineLimit(nil)
+                                    
                                 }
-                                .frame(width: 942.59, height: 536.86)
-                                .background(Color.brightPurple)
-                                .font(.custom("PatrickHand-Regular", size: 40))
-                                .cornerRadius(20)
-                                .foregroundColor(.white)
-                                .padding(.trailing, 90)
+//                                .frame(height: 500)
+                                .padding(.bottom, 20)
                             }
+                            
+                            Spacer()
+                            HStack{
+                                Button{
+                                    dao.savedStories.append(dao.story)
+                                    dao.cenaAtual = .savedStories
+                                }label: {
+                                    Image("BtnPrevAmarelo")
+                                }
+                                Spacer()
+                            }
+                            .padding(.bottom, 20)
+//                            .padding(.leading, 50)
                         }
                     }
+                    .padding(.horizontal, 70)
+                    
+                   
                 }
             }
         }

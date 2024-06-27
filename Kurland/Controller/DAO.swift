@@ -19,7 +19,8 @@ let dao = DAO.instance
     var isEditing: Bool = false
     var entryList: [String] = []
     var story: Story = Story(title: "", story: [])
-    
+    var savedStories: [Story] = []
+    var indexStory: Int = -1
     
     private init() {}
     

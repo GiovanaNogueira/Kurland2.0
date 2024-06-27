@@ -22,6 +22,10 @@ struct GenerateAI: View {
         }
         return "You need \(5 - count) more entries to generate \nYour Very Own Kurland Adventure."
     }
+    
+    var showSaved: Bool {
+        return !dao.savedStories.isEmpty
+    }
     var body: some View {
         ZStack{
             Image("FundoRoxo")
@@ -58,6 +62,14 @@ struct GenerateAI: View {
                 }
                 .opacity(canGenerate ? 1 : 0.8 )
                 .disabled(!canGenerate)
+                
+                Button{
+                    dao.cenaAtual = .savedStories
+                }label: {
+                    Image("BtnMyAdventures")
+                }
+                .opacity(showSaved ? 1 : 0.8 )
+                .disabled(!showSaved)
                 
                 Button{
                     dao.cenaAtual = .aiInfo

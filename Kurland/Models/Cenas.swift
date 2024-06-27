@@ -8,6 +8,7 @@
 import Foundation
 
 enum Cena: Int, Codable {
+    case launchScreen
     case abertura
     case introducao
     case ayanaTriste
@@ -30,4 +31,5 @@ enum Cena: Int, Codable {
     case aiInfo
     case processing
     case showingStory
+    case savedStories
 }

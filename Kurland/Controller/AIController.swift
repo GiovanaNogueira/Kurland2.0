@@ -25,7 +25,7 @@ final class AIController: ObservableObject {
     
     @MainActor
     func makeStory(using entriesList: [String]) async throws{
-        self.appState = .processing
+        dao.cenaAtual = .processing
         
         guard let story = try await createStory(using: entriesList) else{
             self.appState = .diaryEntry
