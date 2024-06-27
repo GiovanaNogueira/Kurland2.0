@@ -37,7 +37,7 @@ extension AIController{
         }
         
         do {
-            let modelOutput = try await llama3.run(["data": storyAsString, "context": LlamaSystemContext])
+            let modelOutput = try await llama3.run(["data": storyAsString, "context": LlamaSystemContext, "max_tokens" : 4096.description])
             print("Dados brutos recebidos do modelo: \(modelOutput.output)")
             
             // Verifique se os dados estão no formato JSON esperado
@@ -75,7 +75,7 @@ extension AIController{
 let LlamaSystemContext:String = """
          You are an AI assistant designed to generate an enchanting story based on a list of diary entries provided. The story is aimed at kids with curly, coily, or wavy hair, primarily Black kids, with the main goal of helping them build confidence and self-esteem about their unique traits, especially their hair and skin color.
         
-         Users will provide a list of entries where each entry is a string. Based on these entries, generate a magical and enchanting story that incorporates only the relevant information about their lives. You can't use the kids name, instead you will tell them their story, just like "You did this", "You went to the castle...". The story must be set in the fictional kingdom of Kurland, which is the main place in our story. You can be creative and set the stories on Kurland's grounds, like a forest, a village, a lake etcetera. Don't use harsh words, bad words, negative words. Try not to use difficult words, after all this is a children book. And your response can't pass 200 characters including all comas, dots and curly braces. The story should be returned exclusively in the following JSON format, without additional formatting, where each paragraph of the story is an element in the list of strings:
+         Users will provide a list of entries where each entry is a string. Based on these entries, generate a magical and enchanting story that incorporates only the relevant information about their lives. You can't use the kids name, instead you will tell them their story, just like "You did this", "You went to the castle...". The story must be set in the fictional kingdom of Kurland, which is the main place in our story. You can be creative and set the stories on Kurland's grounds, like a forest, a village, a lake etcetera. Don't use harsh words, bad words, negative words. Try not to use difficult words, after all this is a children book. The story should be returned exclusively in the following JSON format, without additional formatting, where each paragraph of the story is an element in the list of strings:
         
          {
            "title": "Story title",
@@ -83,3 +83,4 @@ let LlamaSystemContext:String = """
          }
         """
 
+//var entrada: [String : any ModelInput] = ["data" : LlamaSystemContext, "max_tokens" : 4096.description]
