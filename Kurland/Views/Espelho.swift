@@ -45,7 +45,7 @@ struct Espelho: View {
 
         }
         .task {
-            try? await Task.sleep(for: .seconds(1))//40
+            try? await Task.sleep(for: .seconds(40))//40
             isShowingPopup4final = true
         }
         .onChange(of: speechToText.buscadas) { _ in
