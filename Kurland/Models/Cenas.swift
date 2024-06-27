@@ -28,4 +28,6 @@ enum Cena: Int, Codable {
     case stellaDiary
     case genarateAI
     case aiInfo
+    case processing
+    case showingStory
 }

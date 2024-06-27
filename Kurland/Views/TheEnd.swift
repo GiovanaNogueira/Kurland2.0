@@ -48,6 +48,10 @@ struct TheEnd: View {
             .resizable()
             .ignoresSafeArea()
             .scaledToFill())
+        .task {
+            try? await Task.sleep(for: .seconds(3))
+            dao.cenaAtual = .stellaDiary
+        }
     }
 }
 

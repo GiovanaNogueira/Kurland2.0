@@ -10,21 +10,38 @@ import SwiftUI
 struct StellaDiary: View {
     var body: some View {
         ZStack{
-            Image("StelaDiary")
+            Image("StellaDiary")
                 .resizable()
                 .ignoresSafeArea()
             VStack{
-                Button{
-                    dao.cenaAtual = .genarateAI
-                }label: {
-                    Image("BtnDiaryRoxo")
-                }
                 
-                Button{
-                    dao.cenaAtual = .princesas
-                }label: {
-                    Image("BtnPrevAmarelo")
+                Spacer()
+                Spacer()
+                HStack{
+                    Spacer()
+                    Spacer()
+                    Button{
+                        dao.cenaAtual = .diarySwipe
+                    }label: {
+                        Image("BtnDiaryRoxo")
+                            .resizable()
+                            .frame(width: 203.38, height: 200.87)
+                    }
+                    .padding(.leading, 50)
+                    .padding(.top, 100)
+                    Spacer()
                 }
+                Spacer()
+                HStack{
+                    Button{
+                        dao.cenaAtual = .princesas
+                    }label: {
+                        Image("BtnPrevAmarelo")
+                    }
+                    Spacer()
+                }
+                .padding(.bottom, 20)
+                .padding(.leading, 50)
             }
         }
     }

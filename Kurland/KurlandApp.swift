@@ -11,6 +11,8 @@ import AVFoundation
 @main
 struct KurlandApp: App {
     
+    @StateObject var aiManager: AIController = AIController()
+    
     @Environment(\.scenePhase) var scenePhase
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
@@ -29,6 +31,9 @@ struct KurlandApp: App {
 
     var body: some Scene {
         WindowGroup {
+//            ZStack{
+//                StellaDiary()
+//            }
             ZStack {
                 switch dao.cenaAtual {
                 case .abertura:
@@ -57,13 +62,6 @@ struct KurlandApp: App {
                         .onAppear {
                             soundPlayer.stopBackground()
                             soundPlayer.playBackground(soundName: "trilhaSemInicio")
-//                            var timer: Timer?
-//                                        timer = Timer.scheduledTimer(withTimeInterval: 60, repeats: false) { _ in
-//                                            // Ajusta a currentTime após 60 segundos
-//                                            soundPlayer.backgroundPlayer?.currentTime = 60
-//                                            timer?.invalidate()
-//                                            timer = nil
-//                                        }
                         }
                 case .abreCastelo:
                     FriendsView(cenaAtual: $cenaAtual,
@@ -120,14 +118,12 @@ struct KurlandApp: App {
                         }
                 case .convFinal2:
                     ConversaFinal2(cenaAtual: $cenaAtual, lastIsNatu: $lastIsNatu)
-//                        .transition(.opacity)
                         .onAppear {
                             soundPlayer.playBackground(soundName: "trilhaSemInicio")
                         }
                 case .princesas:
                     Princesas(cenaAtual: $cenaAtual, lastIsNatu: $lastIsNatu,
                               hasFinished: $hasFinished)
-//                        .transition(.opacity)
                         .onAppear {
                             soundPlayer.stopBackground()
                             soundPlayer.playBackground(soundName: "trilhaFinal")
@@ -162,6 +158,10 @@ struct KurlandApp: App {
                 case .aiInfo:
                     AiInfo()
                         .transition(.opacity)
+                case .processing:
+                    ProgressView()
+                case .showingStory:
+                    AiStory()
                 }
             }
             .onChange(of: cenaAtual) { newCena in
@@ -195,6 +195,7 @@ struct KurlandApp: App {
                 }
             }
             .animation(.default, value: cenaAtual)
+            .environmentObject(aiManager)
         }
     }
 }

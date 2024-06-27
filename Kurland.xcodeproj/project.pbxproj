@@ -54,6 +54,12 @@
 		F9D864C52C2CB5370023043A /* StellaDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C42C2CB5370023043A /* StellaDiary.swift */; };
 		F9D864C72C2CB85C0023043A /* GenerateAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C62C2CB85C0023043A /* GenerateAI.swift */; };
 		F9D864C92C2CBA910023043A /* AiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864C82C2CBA910023043A /* AiInfo.swift */; };
+		F9D864CC2C2CC98C0023043A /* aiXplainKit in Frameworks */ = {isa = PBXBuildFile; productRef = F9D864CB2C2CC98C0023043A /* aiXplainKit */; };
+		F9D864CE2C2CC9DF0023043A /* AIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864CD2C2CC9DF0023043A /* AIController.swift */; };
+		F9D864D02C2D95CB0023043A /* AiController+aiXplain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864CF2C2D95CB0023043A /* AiController+aiXplain.swift */; };
+		F9D864D42C2D97F20023043A /* AiStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864D32C2D97F20023043A /* AiStory.swift */; };
+		F9D864D62C2D990A0023043A /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864D52C2D990A0023043A /* Story.swift */; };
+		F9D864D82C2D9EBB0023043A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864D72C2D9EBB0023043A /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +131,11 @@
 		F9D864C42C2CB5370023043A /* StellaDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellaDiary.swift; sourceTree = "<group>"; };
 		F9D864C62C2CB85C0023043A /* GenerateAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateAI.swift; sourceTree = "<group>"; };
 		F9D864C82C2CBA910023043A /* AiInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiInfo.swift; sourceTree = "<group>"; };
+		F9D864CD2C2CC9DF0023043A /* AIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIController.swift; sourceTree = "<group>"; };
+		F9D864CF2C2D95CB0023043A /* AiController+aiXplain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AiController+aiXplain.swift"; sourceTree = "<group>"; };
+		F9D864D32C2D97F20023043A /* AiStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiStory.swift; sourceTree = "<group>"; };
+		F9D864D52C2D990A0023043A /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		F9D864D72C2D9EBB0023043A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9D864B62C247D6D0023043A /* CodableExtensions in Frameworks */,
+				F9D864CC2C2CC98C0023043A /* aiXplainKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +234,8 @@
 				F9D864B12C2470FF0023043A /* SoundPlayerController.swift */,
 				F9D864B32C247CEF0023043A /* DAO.swift */,
 				F9D864BA2C249D700023043A /* AppDelegateController.swift */,
+				F9D864CD2C2CC9DF0023043A /* AIController.swift */,
+				F9D864CF2C2D95CB0023043A /* AiController+aiXplain.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -252,6 +266,7 @@
 				F9D864C42C2CB5370023043A /* StellaDiary.swift */,
 				F9D864C62C2CB85C0023043A /* GenerateAI.swift */,
 				F9D864C82C2CBA910023043A /* AiInfo.swift */,
+				F9D864D32C2D97F20023043A /* AiStory.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,6 +293,8 @@
 			children = (
 				F9D864B82C247E8A0023043A /* Cenas.swift */,
 				F9D864BC2C24A3190023043A /* Diario.swift */,
+				F9D864D52C2D990A0023043A /* Story.swift */,
+				F9D864D72C2D9EBB0023043A /* AppState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -300,6 +317,7 @@
 			name = Kurland;
 			packageProductDependencies = (
 				F9D864B52C247D6D0023043A /* CodableExtensions */,
+				F9D864CB2C2CC98C0023043A /* aiXplainKit */,
 			);
 			productName = Kurland;
 			productReference = F9D864452C2364F40023043A /* Kurland.app */;
@@ -375,6 +393,7 @@
 			mainGroup = F9D8643C2C2364F40023043A;
 			packageReferences = (
 				F9D864B02C246C210023043A /* XCRemoteSwiftPackageReference "CodableExtensions" */,
+				F9D864CA2C2CC98C0023043A /* XCRemoteSwiftPackageReference "aiXplainKit" */,
 			);
 			productRefGroup = F9D864462C2364F40023043A /* Products */;
 			projectDirPath = "";
@@ -431,16 +450,19 @@
 				F9D864B92C247E8A0023043A /* Cenas.swift in Sources */,
 				F9D8644B2C2364F40023043A /* ContentView.swift in Sources */,
 				F9D8648A2C237C6E0023043A /* Princesas.swift in Sources */,
+				F9D864D82C2D9EBB0023043A /* AppState.swift in Sources */,
 				F9D8648C2C237C8A0023043A /* RioCastelo.swift in Sources */,
 				F9D8647A2C237AF40023043A /* ConversaFinal1.swift in Sources */,
 				F9D864862C237C130023043A /* PopUp_Cabelo2.swift in Sources */,
 				F9D8647E2C237B4D0023043A /* JogoNatureza.swift in Sources */,
 				F9D864822C237BCA0023043A /* PopUp-tela4.final.swift in Sources */,
 				F9D864982C237D160023043A /* TheEnd.swift in Sources */,
+				F9D864D42C2D97F20023043A /* AiStory.swift in Sources */,
 				F9D864B42C247CEF0023043A /* DAO.swift in Sources */,
 				F9D864962C237CFB0023043A /* EscolhasView.swift in Sources */,
 				F9D864BD2C24A31A0023043A /* Diario.swift in Sources */,
 				F9D864C52C2CB5370023043A /* StellaDiary.swift in Sources */,
+				F9D864D62C2D990A0023043A /* Story.swift in Sources */,
 				F9D864942C237CE80023043A /* FriendsView.swift in Sources */,
 				F9D864842C237BE70023043A /* PopUp_Cabelo1.swift in Sources */,
 				F9D8647C2C237B190023043A /* ConversaFinal2.swift in Sources */,
@@ -454,7 +476,9 @@
 				F9D864C92C2CBA910023043A /* AiInfo.swift in Sources */,
 				F9D864802C237B8B0023043A /* JogoPedra.swift in Sources */,
 				F9D864782C236B320023043A /* CameraController.swift in Sources */,
+				F9D864D02C2D95CB0023043A /* AiController+aiXplain.swift in Sources */,
 				F9D864762C236A7C0023043A /* MicController.swift in Sources */,
+				F9D864CE2C2CC9DF0023043A /* AIController.swift in Sources */,
 				F9D864C32C2C592B0023043A /* DiaryDisplay.swift in Sources */,
 				F9D864BB2C249D700023043A /* AppDelegateController.swift in Sources */,
 				F9D864BF2C24A4AC0023043A /* DiaryEntry.swift in Sources */,
@@ -812,6 +836,14 @@
 				kind = branch;
 			};
 		};
+		F9D864CA2C2CC98C0023043A /* XCRemoteSwiftPackageReference "aiXplainKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aixplain/aiXplainKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -819,6 +851,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F9D864B02C246C210023043A /* XCRemoteSwiftPackageReference "CodableExtensions" */;
 			productName = CodableExtensions;
+		};
+		F9D864CB2C2CC98C0023043A /* aiXplainKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9D864CA2C2CC98C0023043A /* XCRemoteSwiftPackageReference "aiXplainKit" */;
+			productName = aiXplainKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

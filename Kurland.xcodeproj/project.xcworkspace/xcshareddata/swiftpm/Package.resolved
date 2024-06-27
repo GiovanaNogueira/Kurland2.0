@@ -1,6 +1,15 @@
 {
-  "originHash" : "729d5f737a6ba0ffdffbf0e74879f77576597d2ae5aa503c3cf3e631f1f27c4e",
+  "originHash" : "e6af88247e4c0cdb066bb53ff31f413a474252801e71c289b6841ce4395a4309",
   "pins" : [
+    {
+      "identity" : "aixplainkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aixplain/aiXplainKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "64a294ba688e88e62a4728d78129da4ce055bf00"
+      }
+    },
     {
       "identity" : "codableextensions",
       "kind" : "remoteSourceControl",

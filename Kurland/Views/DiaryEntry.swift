@@ -126,6 +126,7 @@ struct DiaryEntry: View {
         else{
             let dia: Entry = Entry(id: UUID(), titulo: titulo, img: imageToString(image), corpo: entrada, data: Date())
             dao.diario.append(dia)
+            dao.entryList.append(dia.corpo)
             
         }
         dao.cenaAtual = .diarySwipe

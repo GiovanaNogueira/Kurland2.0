@@ -92,7 +92,7 @@ struct DiarySwipe: View{
     
                         }
                         .padding(.bottom, 20)
-                        .padding(.trailing, 50)
+                        .padding(.leading, 50)
                         Spacer()
                         
                         HStack(spacing: 5){

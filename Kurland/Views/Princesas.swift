@@ -34,13 +34,13 @@ struct Princesas: View {
                         Image("BtnPrevAmarelo").padding(.leading, 29).padding(.bottom, 20)
                     })
                     Spacer()
-                    if hasFinished{
-                        Button(action: {
-                            dao.cenaAtual = .theEnd
-                        }, label: {
-                            Image("BtnNext").padding(.trailing, 29).padding(.bottom, 20)
-                        })
-                    }
+//                    if hasFinished{
+//                        Button(action: {
+//                            dao.cenaAtual = .stellaDiary
+//                        }, label: {
+//                            Image("BtnNext").padding(.trailing, 29).padding(.bottom, 20)
+//                        })
+//                    }
                 }
             }
         }
@@ -49,12 +49,12 @@ struct Princesas: View {
             .ignoresSafeArea()
             .scaledToFill())
             .task {
-                guard !hasFinished else { return }
-                try? await Task.sleep(for: .seconds(3))
-                cenaAtual = .theEnd
-                await MainActor.run{
-                    hasFinished = true
-                }
+//                guard !hasFinished else { return }
+                try? await Task.sleep(for: .seconds(2))
+                dao.cenaAtual = .stellaDiary
+//                await MainActor.run{
+//                    hasFinished = true
+//                }
             }
     }
 }

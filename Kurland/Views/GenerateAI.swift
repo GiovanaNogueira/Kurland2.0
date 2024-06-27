@@ -8,6 +8,20 @@
 import SwiftUI
 
 struct GenerateAI: View {
+    
+    @EnvironmentObject var aiManager: AIController
+    
+    let count = dao.entryList.count
+    
+    var canGenerate: Bool {
+        return count == 5
+    }
+    var description: String {
+        if canGenerate {
+            return "Your adventure is ready!"
+        }
+        return "You need \(5 - count) more entries to generate \nYour Very Own Kurland Adventure."
+    }
     var body: some View {
         ZStack{
             Image("FundoRoxo")
@@ -15,6 +29,7 @@ struct GenerateAI: View {
                 .ignoresSafeArea()
             
             VStack(spacing: 20){
+                Spacer()
                 Image("Stars")
                     .padding(.bottom, 20)
                 
@@ -22,23 +37,47 @@ struct GenerateAI: View {
                     .font(.custom("PatrickHand-Regular", size: 48))
                     .foregroundStyle(Color.white)
                 
-                Text("You need _ more entries to generate \nYour Very Own Kurland Adventure.")
+                Text(description)
                     .font(.custom("PatrickHand-Regular", size: 36))
                     .foregroundStyle(Color.white)
                     .multilineTextAlignment(.center)
-                    .padding(.bottom, 20)
-                
+//                    .padding(.bottom, 20)
+                Spacer()
                 Button{
-                    
+                    Task{ @MainActor in
+                        do{
+                            try await aiManager.makeStory(using: dao.entryList)
+                            print("\(dao.story)")
+                        }catch{
+                            aiManager.appState = .diaryEntry
+                            print(error.localizedDescription)
+                        }
+                    }                    
                 }label: {
                     Image("BtnGenerate")
                 }
+                .opacity(canGenerate ? 1 : 0.8 )
+                .disabled(!canGenerate)
                 
                 Button{
                     dao.cenaAtual = .aiInfo
                 }label: {
                     Image("BtnInfo")
                 }
+                
+                Spacer()
+                HStack{
+                    Button{
+                        dao.cenaAtual = .diarySwipe
+                    }label: {
+                        Image("BtnDiary")
+                            .resizable()
+                            .frame(width: 80, height: 80)
+                    }
+                    Spacer()
+                }
+                .padding(.bottom, 20)
+                .padding(.leading, 50)
                 
             }
         }
