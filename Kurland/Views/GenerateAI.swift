@@ -51,16 +51,16 @@ struct GenerateAI: View {
                     Task{ @MainActor in
                         do{
                             try await aiManager.makeStory(using: dao.entryList)
-                            print("\(dao.story)")
+//                            print("\(dao.story)")
                         }catch{
                             aiManager.appState = .diaryEntry
                             print(error.localizedDescription)
                         }
-                    }                    
+                    }  
                 }label: {
                     Image("BtnGenerate")
                 }
-                .opacity(canGenerate ? 1 : 0.8 )
+                .opacity(canGenerate ? 1 : 0.6 )
                 .disabled(!canGenerate)
                 
                 Button{
@@ -68,7 +68,7 @@ struct GenerateAI: View {
                 }label: {
                     Image("BtnMyAdventures")
                 }
-                .opacity(showSaved ? 1 : 0.8 )
+                .opacity(showSaved ? 1 : 0.6 )
                 .disabled(!showSaved)
                 
                 Button{

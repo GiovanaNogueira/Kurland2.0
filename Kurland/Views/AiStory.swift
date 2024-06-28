@@ -22,7 +22,7 @@ struct AiStory: View {
                         .padding(.bottom, 30)
                         .padding(.top, 20)
                     
-                    ScrollView{
+                    ScrollView(showsIndicators: false){
                         VStack{
                             ForEach(dao.story.story.indices, id: \.self ){ index in
                                 VStack{
@@ -40,7 +40,9 @@ struct AiStory: View {
                             Spacer()
                             HStack{
                                 Button{
-                                    dao.savedStories.append(dao.story)
+                                    if let _ = dao.savedStories.first(where: { $0.story != dao.story.story}){
+                                        dao.savedStories.append(dao.story)
+                                    }
                                     dao.cenaAtual = .savedStories
                                 }label: {
                                     Image("BtnPrevAmarelo")
