@@ -42,9 +42,9 @@ struct KurlandApp: App {
                 case .introducao:
                     Tela2(cenaAtual: $cenaAtual)
                         .transition(.opacity)
-                        .onAppear {
-                            soundPlayer.playBackground(soundName: "trilhaSonora")
-                        }
+//                        .onAppear {
+//                            soundPlayer.playBackground(soundName: "trilhaSonora")
+//                        }
                 case .ayanaTriste:
                     AyanaTriste(cenaAtual: $cenaAtual)
                         .transition(.opacity)
@@ -65,18 +65,18 @@ struct KurlandApp: App {
                           wasUsedCabelo1: $wasUsedCabelo1,
                           wasUsedCabelo2: $wasUsedCabelo2)
                         .transition(.opacity)
-                        .onAppear {
-                            soundPlayer.playBackground(soundName: "trilhaSemInicio")
-                        }
+//                        .onAppear {
+//                            soundPlayer.playBackground(soundName: "trilhaSemInicio")
+//                        }
                 case .primEscolha:
                     EscolhasView(cenaAtual: $cenaAtual,
                           wasUsedCabelo1: $wasUsedCabelo1,
                           wasUsedCabelo2: $wasUsedCabelo2, lastIsNatu: $lastIsNatu,
                           count: $count)
                         .transition(.opacity)
-                        .onAppear {
-                            soundPlayer.playBackground(soundName: "trilhaSemInicio")
-                        }
+//                        .onAppear {
+//                            soundPlayer.playBackground(soundName: "trilhaSemInicio")
+//                        }
                 case .jogoNatureza:
                     JogoNatureza(count: $count, wasUsedCabelo1: $wasUsedCabelo1, cenaAtual: $cenaAtual)
                         .transition(.opacity)
@@ -104,20 +104,20 @@ struct KurlandApp: App {
                 case .jogoPedra:
                     JogoPedra(cenaAtual: $cenaAtual, wasUsedCabelo1: $wasUsedCabelo1, wasUsedCabelo2: $wasUsedCabelo2)
                         .transition(.opacity)
-                        .onAppear {
-                            soundPlayer.playBackground(soundName: "trilhaSemInicio")
-                        }
+//                        .onAppear {
+//                            soundPlayer.playBackground(soundName: "trilhaSemInicio")
+//                        }
                 case .convFinal1:
                     ConversaFinal1(cenaAtual: $cenaAtual, lastIsNatu: $lastIsNatu)
 //                        .transition(.opacity)
-                        .onAppear {
-                            soundPlayer.playBackground(soundName: "trilhaSemInicio")
-                        }
+//                        .onAppear {
+//                            soundPlayer.playBackground(soundName: "trilhaSemInicio")
+//                        }
                 case .convFinal2:
                     ConversaFinal2(cenaAtual: $cenaAtual, lastIsNatu: $lastIsNatu)
-                        .onAppear {
-                            soundPlayer.playBackground(soundName: "trilhaSemInicio")
-                        }
+//                        .onAppear {
+//                            soundPlayer.playBackground(soundName: "trilhaSemInicio")
+//                        }
                 case .princesas:
                     Princesas(cenaAtual: $cenaAtual, lastIsNatu: $lastIsNatu,
                               hasFinished: $hasFinished)
@@ -133,21 +133,24 @@ struct KurlandApp: App {
                         wasUsedCabelo2: $wasUsedCabelo2,
                         hasFinished: $hasFinished)
                         .transition(.opacity)
-                        .onAppear {
-                            soundPlayer.stopBackground()
-                            soundPlayer.playBackground(soundName: "trilhaFinal")
-                        }
+//                        .onAppear {
+//                            soundPlayer.stopBackground()
+//                            soundPlayer.playBackground(soundName: "trilhaFinal")
+//                        }
                 case .diaryEntry:
                     DiaryEntry()
                         .transition(.opacity)
                 case .diarySwipe:
                     DiarySwipe()
                         .transition(.opacity)
+                        .onAppear {
+                            soundPlayer.playBackground(soundName: "trilhaSonora")
+                        }
                 case .diaryDisplay:
                     DiaryDisplay()
                         .transition(.opacity)
                 case .stellaDiary:
-                    StellaDiary()
+                    StellaDiary(count: $count, wasUsedCabelo1: $wasUsedCabelo1, wasUsedCabelo2: $wasUsedCabelo2, hasFinished: $hasFinished)
                         .transition(.opacity)
                 case .genarateAI:
                     GenerateAI()
@@ -162,6 +165,12 @@ struct KurlandApp: App {
                     AiStory()
                 case .launchScreen:
                     LaunchScreenView()
+                        .onAppear {
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 1)
+                            {
+                                soundPlayer.playBackground(soundName: "trilhaSonora")
+                            }                            
+                        }
                 case .savedStories:
                     SavedStories()
                 }

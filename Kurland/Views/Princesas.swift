@@ -50,7 +50,7 @@ struct Princesas: View {
             .scaledToFill())
             .task {
 //                guard !hasFinished else { return }
-                try? await Task.sleep(for: .seconds(2))
+                try? await Task.sleep(for: .seconds(3))
                 dao.cenaAtual = .stellaDiary
 //                await MainActor.run{
 //                    hasFinished = true

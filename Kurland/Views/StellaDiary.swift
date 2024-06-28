@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct StellaDiary: View {
+    @Binding var count: Int
+    @Binding var wasUsedCabelo1: Bool
+    @Binding var wasUsedCabelo2: Bool
+    @Binding var hasFinished: Bool
     var body: some View {
         ZStack{
             Image("StellaDiary")
@@ -21,6 +25,10 @@ struct StellaDiary: View {
                     Spacer()
                     Spacer()
                     Button{
+                        count = 0
+                        wasUsedCabelo1 = false
+                        wasUsedCabelo2 = false
+                        hasFinished = false
                         dao.cenaAtual = .diarySwipe
                     }label: {
                         Image("BtnDiaryRoxo")
@@ -47,6 +55,6 @@ struct StellaDiary: View {
     }
 }
 
-#Preview {
-    StellaDiary()
-}
+//#Preview {
+//    StellaDiary()
+//}

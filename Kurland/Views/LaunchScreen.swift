@@ -54,10 +54,10 @@ struct LaunchScreenView: View {
                 }
                 .animation(.default, value: goToNextView)
         .onAppear{
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5)
             {
                 animaTrigger.toggle()
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1)
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5)
                 {
                     dao.cenaAtual = .abertura
                 }
