@@ -16,6 +16,7 @@
 		F900A04A2C6F77B20077D73E /* trilhaJogos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A0422C6F77B20077D73E /* trilhaJogos.mp3 */; };
 		F900A04B2C6F77B20077D73E /* taskCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A0432C6F77B20077D73E /* taskCompleted.mp3 */; };
 		F900A04D2C6F79000077D73E /* trilhaSemInicio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A04C2C6F79000077D73E /* trilhaSemInicio.mp3 */; };
+		F900A0532C6F8B660077D73E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F900A0522C6F8B660077D73E /* Localizable.xcstrings */; };
 		F9D864492C2364F40023043A /* KurlandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864482C2364F40023043A /* KurlandApp.swift */; };
 		F9D8644B2C2364F40023043A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8644A2C2364F40023043A /* ContentView.swift */; };
 		F9D8644D2C2364F50023043A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D8644C2C2364F50023043A /* Assets.xcassets */; };
@@ -91,6 +92,7 @@
 		F900A0422C6F77B20077D73E /* trilhaJogos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trilhaJogos.mp3; sourceTree = "<group>"; };
 		F900A0432C6F77B20077D73E /* taskCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taskCompleted.mp3; sourceTree = "<group>"; };
 		F900A04C2C6F79000077D73E /* trilhaSemInicio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trilhaSemInicio.mp3; sourceTree = "<group>"; };
+		F900A0522C6F8B660077D73E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		F9D864452C2364F40023043A /* Kurland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kurland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D864482C2364F40023043A /* KurlandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurlandApp.swift; sourceTree = "<group>"; };
 		F9D8644A2C2364F40023043A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F900A04E2C6F795C0077D73E /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */,
+				F9D864C02C24CADF0023043A /* DiarySwipe.swift */,
+				F9D864C22C2C592B0023043A /* DiaryDisplay.swift */,
+				F9D864C42C2CB5370023043A /* StellaDiary.swift */,
+				F9D864C62C2CB85C0023043A /* GenerateAI.swift */,
+				F9D864C82C2CBA910023043A /* AiInfo.swift */,
+				F9D864D32C2D97F20023043A /* AiStory.swift */,
+				F9D864DB2C2E115C0023043A /* SavedStories.swift */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		F900A04F2C6F79660077D73E /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F9D864912C237CCF0023043A /* Espelho.swift */,
+				F9D864952C237CFB0023043A /* EscolhasView.swift */,
+				F9D8647D2C237B4D0023043A /* JogoNatureza.swift */,
+				F9D8647F2C237B8B0023043A /* JogoPedra.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		F900A0502C6F79D10077D73E /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8648D2C237CA50023043A /* IntroAyana.swift */,
+				F9D8648F2C237CBC0023043A /* AyanaTriste.swift */,
+				F9D864932C237CE80023043A /* FriendsView.swift */,
+				F9D8648B2C237C8A0023043A /* RioCastelo.swift */,
+				F9D864792C237AF40023043A /* ConversaFinal1.swift */,
+				F9D8647B2C237B190023043A /* ConversaFinal2.swift */,
+				F9D864892C237C6E0023043A /* Princesas.swift */,
+				F9D864972C237D160023043A /* TheEnd.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		F900A0512C6F79DB0077D73E /* PopUps */ = {
+			isa = PBXGroup;
+			children = (
+				F9D864872C237C4F0023043A /* PopUp-Tela4.swift */,
+				F9D864812C237BCA0023043A /* PopUp-tela4.final.swift */,
+				F9D864832C237BE70023043A /* PopUp_Cabelo1.swift */,
+				F9D864852C237C130023043A /* PopUp_Cabelo2.swift */,
+			);
+			path = PopUps;
+			sourceTree = "<group>";
+		};
 		F9D8643C2C2364F40023043A = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +255,7 @@
 				F9D864AE2C2465D10023043A /* PatrickHand-Regular.ttf */,
 				F9D864992C2460490023043A /* SoundEffects */,
 				F9D8644E2C2364F50023043A /* Preview Content */,
+				F900A0522C6F8B660077D73E /* Localizable.xcstrings */,
 			);
 			path = Kurland;
 			sourceTree = "<group>";
@@ -249,30 +304,10 @@
 			children = (
 				F9D864D92C2E05B10023043A /* LaunchScreen.swift */,
 				F9D8644A2C2364F40023043A /* ContentView.swift */,
-				F9D8648D2C237CA50023043A /* IntroAyana.swift */,
-				F9D8648F2C237CBC0023043A /* AyanaTriste.swift */,
-				F9D864872C237C4F0023043A /* PopUp-Tela4.swift */,
-				F9D864912C237CCF0023043A /* Espelho.swift */,
-				F9D864812C237BCA0023043A /* PopUp-tela4.final.swift */,
-				F9D864932C237CE80023043A /* FriendsView.swift */,
-				F9D864952C237CFB0023043A /* EscolhasView.swift */,
-				F9D864832C237BE70023043A /* PopUp_Cabelo1.swift */,
-				F9D8647D2C237B4D0023043A /* JogoNatureza.swift */,
-				F9D864852C237C130023043A /* PopUp_Cabelo2.swift */,
-				F9D8647F2C237B8B0023043A /* JogoPedra.swift */,
-				F9D8648B2C237C8A0023043A /* RioCastelo.swift */,
-				F9D864792C237AF40023043A /* ConversaFinal1.swift */,
-				F9D8647B2C237B190023043A /* ConversaFinal2.swift */,
-				F9D864892C237C6E0023043A /* Princesas.swift */,
-				F9D864972C237D160023043A /* TheEnd.swift */,
-				F9D864BE2C24A4AC0023043A /* DiaryEntry.swift */,
-				F9D864C02C24CADF0023043A /* DiarySwipe.swift */,
-				F9D864C22C2C592B0023043A /* DiaryDisplay.swift */,
-				F9D864C42C2CB5370023043A /* StellaDiary.swift */,
-				F9D864C62C2CB85C0023043A /* GenerateAI.swift */,
-				F9D864C82C2CBA910023043A /* AiInfo.swift */,
-				F9D864D32C2D97F20023043A /* AiStory.swift */,
-				F9D864DB2C2E115C0023043A /* SavedStories.swift */,
+				F900A0502C6F79D10077D73E /* Story */,
+				F900A0512C6F79DB0077D73E /* PopUps */,
+				F900A04F2C6F79660077D73E /* Game */,
+				F900A04E2C6F795C0077D73E /* Diary */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -395,6 +430,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = F9D8643C2C2364F40023043A;
 			packageReferences = (
@@ -423,6 +459,7 @@
 				F900A04A2C6F77B20077D73E /* trilhaJogos.mp3 in Resources */,
 				F900A0492C6F77B20077D73E /* casteloPronto.mp3 in Resources */,
 				F9D8644D2C2364F50023043A /* Assets.xcassets in Resources */,
+				F900A0532C6F8B660077D73E /* Localizable.xcstrings in Resources */,
 				F900A0482C6F77B20077D73E /* trilhaSonora.mp3 in Resources */,
 				F900A04B2C6F77B20077D73E /* taskCompleted.mp3 in Resources */,
 				F900A0462C6F77B20077D73E /* musicaTriste.mp3 in Resources */,

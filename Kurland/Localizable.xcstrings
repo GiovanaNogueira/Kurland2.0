@@ -1,0 +1,156 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Are you sure you want to delete this entry? This action cannot be undone." : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tem certeza de que deseja excluir esta entrada? Esta ação não poderá ser desfeita."
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deletar"
+          }
+        }
+      }
+    },
+    "Delete Entry" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deletar Entrada"
+          }
+        }
+      }
+    },
+    "Diary" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diário"
+          }
+        }
+      }
+    },
+    "Every time you make a new entry, you're adding a \npiece to your own adventure. But guess what? After \nyou write 5 entries, something magical happens! \nYou'll get a special surprise – a unique story \ncreated just for you by a super-smart friend \ncalled AI, or Artificial Intelligence. " : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cada vez que você fizer uma nova entrada, você está adicionando uma peça à sua própria aventura. Mas adivinhe só? Depois de escrever 5 entradas, algo mágico acontece! Você receberá uma surpresa especial – uma história única criada especialmente para você por um amigo super inteligente chamado IA, ou Inteligência Artificial."
+          }
+        }
+      }
+    },
+    "Generating your magical story..." : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerando sua história mágica..."
+          }
+        }
+      }
+    },
+    "HOLD THE CAMERA TO YOUR FACE AND REPEAT THE AFFIRMATION" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APONTE A CÂMERA PARA O SEU ROSTO E REPITA A AFIRMAÇÃO"
+          }
+        }
+      }
+    },
+    "Play" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jogar"
+          }
+        }
+      }
+    },
+    "Play again" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jogar novamente"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salvar"
+          }
+        }
+      }
+    },
+    "Write your title" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escreva seu título"
+          }
+        }
+      }
+    },
+    "Your Diary entries will appear here. \nClick on the + to write!" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suas entradas do diário aparecerão aqui. Clique no + para escrever!"
+          }
+        }
+      }
+    },
+    "Your saved stories will appear here. \nClick on the + to write!" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suas histórias salvas aparecerão aqui. Clique no + para escrever!"
+          }
+        }
+      }
+    },
+    "YOUR VERY OWN KURLAND ADVENTURE" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A SUA PRÓPRIA AVENTURA EM KURLAND"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
