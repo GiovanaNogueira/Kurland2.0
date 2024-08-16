@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F900A0442C6F77B20077D73E /* river.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A03C2C6F77B20077D73E /* river.mp3 */; };
+		F900A0452C6F77B20077D73E /* trilhaFinal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A03D2C6F77B20077D73E /* trilhaFinal.mp3 */; };
+		F900A0462C6F77B20077D73E /* musicaTriste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A03E2C6F77B20077D73E /* musicaTriste.mp3 */; };
+		F900A0472C6F77B20077D73E /* twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A03F2C6F77B20077D73E /* twinkle.mp3 */; };
+		F900A0482C6F77B20077D73E /* trilhaSonora.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A0402C6F77B20077D73E /* trilhaSonora.mp3 */; };
+		F900A0492C6F77B20077D73E /* casteloPronto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A0412C6F77B20077D73E /* casteloPronto.mp3 */; };
+		F900A04A2C6F77B20077D73E /* trilhaJogos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A0422C6F77B20077D73E /* trilhaJogos.mp3 */; };
+		F900A04B2C6F77B20077D73E /* taskCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A0432C6F77B20077D73E /* taskCompleted.mp3 */; };
+		F900A04D2C6F79000077D73E /* trilhaSemInicio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F900A04C2C6F79000077D73E /* trilhaSemInicio.mp3 */; };
 		F9D864492C2364F40023043A /* KurlandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864482C2364F40023043A /* KurlandApp.swift */; };
 		F9D8644B2C2364F40023043A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8644A2C2364F40023043A /* ContentView.swift */; };
 		F9D8644D2C2364F50023043A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D8644C2C2364F50023043A /* Assets.xcassets */; };
@@ -32,15 +41,6 @@
 		F9D864942C237CE80023043A /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864932C237CE80023043A /* FriendsView.swift */; };
 		F9D864962C237CFB0023043A /* EscolhasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864952C237CFB0023043A /* EscolhasView.swift */; };
 		F9D864982C237D160023043A /* TheEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864972C237D160023043A /* TheEnd.swift */; };
-		F9D8649B2C2460EF0023043A /* musicaTriste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8649A2C2460EF0023043A /* musicaTriste.mp3 */; };
-		F9D8649D2C2461560023043A /* casteloPronto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8649C2C2461560023043A /* casteloPronto.mp3 */; };
-		F9D8649F2C2461A20023043A /* river.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D8649E2C2461A20023043A /* river.mp3 */; };
-		F9D864A12C2461D00023043A /* taskCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864A02C2461D00023043A /* taskCompleted.mp3 */; };
-		F9D864A32C2462020023043A /* trilhaFinal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864A22C2462020023043A /* trilhaFinal.mp3 */; };
-		F9D864A52C24629C0023043A /* trilhaJogos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864A42C24629C0023043A /* trilhaJogos.mp3 */; };
-		F9D864A72C2462FA0023043A /* trilhaSonora.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864A62C2462FA0023043A /* trilhaSonora.mp3 */; };
-		F9D864A92C2465280023043A /* trilhaSemInicio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864A82C2465280023043A /* trilhaSemInicio.mp3 */; };
-		F9D864AB2C2465790023043A /* twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9D864AA2C2465790023043A /* twinkle.mp3 */; };
 		F9D864AD2C2465CC0023043A /* PatrickHand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9D864AC2C2465CC0023043A /* PatrickHand-Regular.ttf */; };
 		F9D864B22C2470FF0023043A /* SoundPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864B12C2470FF0023043A /* SoundPlayerController.swift */; };
 		F9D864B42C247CEF0023043A /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D864B32C247CEF0023043A /* DAO.swift */; };
@@ -82,6 +82,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F900A03C2C6F77B20077D73E /* river.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = river.mp3; sourceTree = "<group>"; };
+		F900A03D2C6F77B20077D73E /* trilhaFinal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trilhaFinal.mp3; sourceTree = "<group>"; };
+		F900A03E2C6F77B20077D73E /* musicaTriste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musicaTriste.mp3; sourceTree = "<group>"; };
+		F900A03F2C6F77B20077D73E /* twinkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = twinkle.mp3; sourceTree = "<group>"; };
+		F900A0402C6F77B20077D73E /* trilhaSonora.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trilhaSonora.mp3; sourceTree = "<group>"; };
+		F900A0412C6F77B20077D73E /* casteloPronto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = casteloPronto.mp3; sourceTree = "<group>"; };
+		F900A0422C6F77B20077D73E /* trilhaJogos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trilhaJogos.mp3; sourceTree = "<group>"; };
+		F900A0432C6F77B20077D73E /* taskCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taskCompleted.mp3; sourceTree = "<group>"; };
+		F900A04C2C6F79000077D73E /* trilhaSemInicio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trilhaSemInicio.mp3; sourceTree = "<group>"; };
 		F9D864452C2364F40023043A /* Kurland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kurland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D864482C2364F40023043A /* KurlandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurlandApp.swift; sourceTree = "<group>"; };
 		F9D8644A2C2364F40023043A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,15 +119,6 @@
 		F9D864932C237CE80023043A /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		F9D864952C237CFB0023043A /* EscolhasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscolhasView.swift; sourceTree = "<group>"; };
 		F9D864972C237D160023043A /* TheEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEnd.swift; sourceTree = "<group>"; };
-		F9D8649A2C2460EF0023043A /* musicaTriste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = musicaTriste.mp3; path = "../../../../../../Music/Music/Media.localized/Music/Jon Björk/Unknown Album/musicaTriste.mp3"; sourceTree = "<group>"; };
-		F9D8649C2C2461560023043A /* casteloPronto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = casteloPronto.mp3; path = "../../../../../../Music/Music/Media.localized/Music/SFX Producer/Unknown Album/casteloPronto.mp3"; sourceTree = "<group>"; };
-		F9D8649E2C2461A20023043A /* river.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = river.mp3; path = "../../../../../../Music/Music/Media.localized/Music/SFX Producer/Unknown Album/river.mp3"; sourceTree = "<group>"; };
-		F9D864A02C2461D00023043A /* taskCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = taskCompleted.mp3; path = "../../../../../../Music/Music/Media.localized/Music/SFX Producer/Unknown Album/taskCompleted.mp3"; sourceTree = "<group>"; };
-		F9D864A22C2462020023043A /* trilhaFinal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = trilhaFinal.mp3; path = "../../../../../../Music/Music/Media.localized/Music/Francis Wells/Unknown Album/trilhaFinal.mp3"; sourceTree = "<group>"; };
-		F9D864A42C24629C0023043A /* trilhaJogos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = trilhaJogos.mp3; path = "../../../../../../Music/Music/Media.localized/Music/Adriel Fair/Unknown Album/trilhaJogos.mp3"; sourceTree = "<group>"; };
-		F9D864A62C2462FA0023043A /* trilhaSonora.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = trilhaSonora.mp3; path = "../../../../../../Music/Music/Media.localized/Music/Jon Björk/Unknown Album/trilhaSonora.mp3"; sourceTree = "<group>"; };
-		F9D864A82C2465280023043A /* trilhaSemInicio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = trilhaSemInicio.mp3; path = ../../../../../../Desktop/trilhaSemInicio.mp3; sourceTree = "<group>"; };
-		F9D864AA2C2465790023043A /* twinkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = twinkle.mp3; path = "../../../../../../Music/Music/Media.localized/Music/SFX Producer/Unknown Album/twinkle.mp3"; sourceTree = "<group>"; };
 		F9D864AC2C2465CC0023043A /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PatrickHand-Regular.ttf"; path = "../../../../../../Library/Mobile Documents/com~apple~CloudDocs/Downloads/Kurland.swiftpm 2/Resources/PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
 		F9D864AE2C2465D10023043A /* PatrickHand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PatrickHand-Regular.ttf"; sourceTree = "<group>"; };
 		F9D864AF2C2467500023043A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -280,16 +280,16 @@
 		F9D864992C2460490023043A /* SoundEffects */ = {
 			isa = PBXGroup;
 			children = (
+				F900A0412C6F77B20077D73E /* casteloPronto.mp3 */,
+				F900A03E2C6F77B20077D73E /* musicaTriste.mp3 */,
+				F900A03C2C6F77B20077D73E /* river.mp3 */,
+				F900A04C2C6F79000077D73E /* trilhaSemInicio.mp3 */,
+				F900A0432C6F77B20077D73E /* taskCompleted.mp3 */,
+				F900A03D2C6F77B20077D73E /* trilhaFinal.mp3 */,
+				F900A0422C6F77B20077D73E /* trilhaJogos.mp3 */,
+				F900A0402C6F77B20077D73E /* trilhaSonora.mp3 */,
+				F900A03F2C6F77B20077D73E /* twinkle.mp3 */,
 				F9D864AC2C2465CC0023043A /* PatrickHand-Regular.ttf */,
-				F9D864A02C2461D00023043A /* taskCompleted.mp3 */,
-				F9D864A22C2462020023043A /* trilhaFinal.mp3 */,
-				F9D864A62C2462FA0023043A /* trilhaSonora.mp3 */,
-				F9D864A82C2465280023043A /* trilhaSemInicio.mp3 */,
-				F9D8649E2C2461A20023043A /* river.mp3 */,
-				F9D864AA2C2465790023043A /* twinkle.mp3 */,
-				F9D8649C2C2461560023043A /* casteloPronto.mp3 */,
-				F9D864A42C24629C0023043A /* trilhaJogos.mp3 */,
-				F9D8649A2C2460EF0023043A /* musicaTriste.mp3 */,
 			);
 			path = SoundEffects;
 			sourceTree = "<group>";
@@ -417,18 +417,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9D864AB2C2465790023043A /* twinkle.mp3 in Resources */,
-				F9D864A32C2462020023043A /* trilhaFinal.mp3 in Resources */,
 				F9D864502C2364F50023043A /* Preview Assets.xcassets in Resources */,
-				F9D8649B2C2460EF0023043A /* musicaTriste.mp3 in Resources */,
-				F9D864A92C2465280023043A /* trilhaSemInicio.mp3 in Resources */,
-				F9D864A52C24629C0023043A /* trilhaJogos.mp3 in Resources */,
+				F900A0472C6F77B20077D73E /* twinkle.mp3 in Resources */,
+				F900A0452C6F77B20077D73E /* trilhaFinal.mp3 in Resources */,
+				F900A04A2C6F77B20077D73E /* trilhaJogos.mp3 in Resources */,
+				F900A0492C6F77B20077D73E /* casteloPronto.mp3 in Resources */,
 				F9D8644D2C2364F50023043A /* Assets.xcassets in Resources */,
-				F9D864A12C2461D00023043A /* taskCompleted.mp3 in Resources */,
-				F9D8649F2C2461A20023043A /* river.mp3 in Resources */,
-				F9D8649D2C2461560023043A /* casteloPronto.mp3 in Resources */,
-				F9D864A72C2462FA0023043A /* trilhaSonora.mp3 in Resources */,
+				F900A0482C6F77B20077D73E /* trilhaSonora.mp3 in Resources */,
+				F900A04B2C6F77B20077D73E /* taskCompleted.mp3 in Resources */,
+				F900A0462C6F77B20077D73E /* musicaTriste.mp3 in Resources */,
+				F900A04D2C6F79000077D73E /* trilhaSemInicio.mp3 in Resources */,
 				F9D864AD2C2465CC0023043A /* PatrickHand-Regular.ttf in Resources */,
+				F900A0442C6F77B20077D73E /* river.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
