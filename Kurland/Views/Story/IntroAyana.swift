@@ -14,6 +14,23 @@ struct Tela2: View {
         VStack{
             Spacer()
             HStack{
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                ZStack{
+                    Image("BalaoIntro")
+                    Text("HI THERE! I'M AYANA, A PROUD CITIZEN \nOF KURLAND, ONCE A HARMONIOUS AND \nJOYOUS KINGDOM WHERE ENCHANTMENT \nFLOWS FROM THE QUEEN'S MAGICAL HAIR!").font(.custom("PatrickHand-Regular", size: 24)).multilineTextAlignment(.center)
+                        .padding(.leading)
+                }
+                Spacer()
+                    
+            }
+            Spacer()
+            Spacer()
+            Spacer()
+            HStack{
                 Button(action: {
                     dao.cenaAtual = .abertura
                 }, label: {

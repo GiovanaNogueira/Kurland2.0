@@ -52,6 +52,17 @@
       }
     },
     "Every time you make a new entry, you're adding a \npiece to your own adventure. But guess what? After \nyou write 5 entries, something magical happens! \nYou'll get a special surprise – a unique story \ncreated just for you by a super-smart friend \ncalled AI, or Artificial Intelligence. " : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cada vez que você fizer uma nova entrada, você está adicionando uma peça à sua própria aventura. Mas adivinhe só? Depois de escrever 5 entradas, algo mágico acontece! Você receberá uma surpresa especial – uma história única criada especialmente para você por um amigo super inteligente chamado IA, ou Inteligência Artificial."
+          }
+        }
+      }
+    },
+    "Every time you make a new entry, you're adding a piece to your own adventure. But guess what? After you write 5 entries, something magical happens! You'll get a special surprise – a unique story created just for you by a super-smart friend called AI, or Artificial Intelligence. " : {
       "localizations" : {
         "pt-BR" : {
           "stringUnit" : {
@@ -67,6 +78,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gerando sua história mágica..."
+          }
+        }
+      }
+    },
+    "HI THERE! I'M AYANA, A PROUD CITIZEN \nOF KURLAND, ONCE A HARMONIOUS AND \nJOYOUS KINGDOM WHERE ENCHANTMENT \nFLOWS FROM THE QUEEN'S MAGICAL HAIR!" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OLÁ! EU SOU AYANA, UMA CIDADÃ ORGULHOSA DE KURLAND, ANTES UM REINO HARMÔNICO E ALEGRE ONDE O ENCANTO FLUI ATRAVÉS DOS CABELOS MÁGICOS DA RAINHA!"
           }
         }
       }
